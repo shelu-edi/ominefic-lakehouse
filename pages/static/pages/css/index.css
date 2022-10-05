@@ -17,10 +17,21 @@
 
 .code__form label {
     font-size: 32px;
+    animation: fadeIn 1s;
 }
 
 .code__form input {
     margin-top: 30px;
     background: transparent;
     border-color: lightcoral;
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

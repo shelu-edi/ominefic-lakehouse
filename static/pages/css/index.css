@@ -1,0 +1,37 @@
+.page-body {
+    background: url("/pages/static/pages/img/Lakehouseloginpage.png");
+}
+
+.main__container {
+    margin: auto;
+    width: 20%;
+    padding: 400px 10px;
+}
+
+.code__form {
+    background: transparent;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.code__form label {
+    font-size: 32px;
+    animation: fadeIn 1s;
+}
+
+.code__form input {
+    margin-top: 30px;
+    background: transparent;
+    border-color: lightcoral;
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
