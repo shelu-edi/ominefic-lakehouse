@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g)k1d+p#k8g(a0s&q@3rvtt!@k&an9a2f(5(jo##ixfj!9d5rq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://127.0.0.1:8000/', 'ominefic-lakehouse.onrender.com', 'ominefic-lakehouse.herokuapp.com']
 
 
 # Application definition
